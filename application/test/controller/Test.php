@@ -8,4 +8,9 @@ class Test
         var_dump(phpinfo());
     }
 
+    public function hello($name)
+    {
+        return 'Hello,'.$name;
+    }
+
 }
